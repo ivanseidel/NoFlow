@@ -1,0 +1,33 @@
+{
+  "name": "noflow",
+  "version": "1.0.0",
+  "description": "Program components and make your code flow",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.3.0",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanseidel/NoFlow.git"
+  },
+  "keywords": [
+    "Flow",
+    "FBP",
+    "Graph"
+  ],
+  "author": "Ivan Seidel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanseidel/NoFlow/issues"
+  },
+  "homepage": "https://github.com/ivanseidel/NoFlow#readme"
+}

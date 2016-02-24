@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "simulator",
+      "active": true,
+      "component": "2Dsimulator",
+      "settings": {
+        "field-size": [150, 130],
+      }
+    },
+
+    {
+      "id": "vision",
+      "active": true,
+      "component": "camvision-python",
+      "settings": "camsettings.json"
+    },
+
+    {
+      "id": "state-switch",
+      "active": true,
+      "component": "generic-switch",
+    },
+
+    {
+      "id": "use-simulator",
+      "active": true,
+      "component": "generic-primitive",
+      "settings": false
+    },
+
+    {
+      "id": "kalman",
+      "active": true,
+      "component": "generic-primitive",
+      "settings": {
+        "positionKey": "position"
+      }
+    },
+
+    {
+      "id": "kalman",
+      "active": true,
+      "component": "kalman-filter",
+      "settings": {
+        "positionKey": "position"
+      }
+    },
+
+    {
+      "id": "kalman",
+      "active": true,
+      "component": "kalman-filter",
+      "settings": {
+        "positionKey": "position"
+      }
+    },
+
+    {
+      "id": "brain",
+      "active": true,
+      "component": "kalman-filter",
+      "settings": {
+        "positionKey": "position"
+      }
+    },
+
+
+
+  ]
+}
